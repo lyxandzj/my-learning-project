@@ -1,6 +1,6 @@
-from ultralytics import YOLO
-
 import cv2
+
+from ultralytics import YOLO
 
 model = YOLO(r"yolo11n.pt")
 results = model(
